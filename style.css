@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/*#667761 #545E56 #B79492*/
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(gatinhos.jpg);
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+body, .relogio, span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.relogio {
+    background-color: #EAE1DF;
+    border-radius: 2vh;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+}
+.relogio div {
+    display: flex;
+    background-color: #667761;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0px 10px 10px #917C78;
+    letter-spacing: 3px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+.relogio span.tempo {
+    font-size: 20px;
+}
